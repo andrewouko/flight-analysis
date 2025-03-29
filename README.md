@@ -211,6 +211,12 @@ Once the setup is complete, you can query the data using the AWS Athena console 
    aws glue update-table --database-name eduardo_flight_db_test --table-input file://updated_table_definition.json
    ```
 
+### Flight Query Lambda
+
+The Flight Query Lambda is a serverless component that enables real-time querying of flight data through a REST API. It provides endpoints for retrieving specific flight information, route statistics, and custom data analysis. This component complements the main data processing pipeline by offering on-demand access to the processed flight data.
+
+For detailed information about setup, API endpoints, and usage examples, see the [Flight Query Lambda documentation](flight_query_lambda/README.md).
+
 ### Maintenance and Updates
 
 - The Glue crawler is configured to run daily to keep the schema updated.
