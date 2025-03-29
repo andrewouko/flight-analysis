@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  eduardo:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      # Mount the code for live editing
+      - ./:/app
+    env_file:
+      - .env
+    command: ["python", "main.py"]
+
+volumes:
+  eduardo_data:

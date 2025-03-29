@@ -1,0 +1,8 @@
+et-xmlfile==1.1.0
+openpyxl>=3.1.0
+PyMySQL==1.0.2
+python-dotenv==0.20.0
+SQLAlchemy==1.4.41
+tqdm==4.64.0
+requests==2.26.0
+fastparquet>=2023.1.0

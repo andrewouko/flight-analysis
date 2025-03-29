@@ -1,0 +1,6 @@
+*.sql
+*.zip
+data
+queries
+results
+.env
